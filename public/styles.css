@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(135deg, #4a90e2, #50e3c2); /* Changed background to a cool gradient */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50; /* Dark blue header */
+    color: #ecf0f1; /* Light text */
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #f39c12; /* Warm yellow accent */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e74c3c; /* Red on hover */
+    text-decoration: underline;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+.register-link {
+    color: #2980b9; /* Blue link */
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.poll-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f4f6f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.poll-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.poll-options {
+    list-style: none;
+    padding: 0;
+}
+
+.poll-options li {
+    margin-bottom: 10px;
+}
+
+.vote-button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #2980b9; /* Blue vote button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vote-button:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+}
+
+footer {
+    background-color: #2c3e50; /* Dark footer */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.login-container .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.login-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-container .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container .form-group input:focus {
+    border-color: #2980b9; /* Blue border on focus */
+    outline: none;
+}
+
+.login-container .action-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #2980b9; /* Blue action button */
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container .action-button:hover {
+    background-color: #3498db; /* Light blue on hover */
+}
+
+/* Container for buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+/* Style for the action buttons */
+.button-container.action-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #8e44ad; /* Purple background */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-container.action-button:hover {
+    background-color: #9b59b6; /* Lighter purple on hover */
+    transform: scale(1.05);
+}
+
+.button-container.action-button:active {
+    background-color: #34495e; /* Darker shade when clicked */
+    transform: scale(1);
+}
